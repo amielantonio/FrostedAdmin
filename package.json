@@ -1,0 +1,29 @@
+{
+  "name": "frostedadmin",
+  "version": "1.0.0",
+  "description": "Yet another dashboard with added animations for more fanciness",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path sass src/sass/app.sass src/css/frostedadmin.css",
+    "sass-watch": "node-sass -w --include-path sass sass/main.sass src/css/vslzr.css",
+    "build-dev": "webpack",
+    "build-watch": "webpack --progress --watch",
+    "build-serve" : "webpack-dev-server --hotOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amielantonio/FrostedAdmin.git"
+  },
+  "author": "amielantonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amielantonio/FrostedAdmin/issues"
+  },
+  "homepage": "https://github.com/amielantonio/FrostedAdmin#readme"
+}
